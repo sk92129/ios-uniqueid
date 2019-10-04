@@ -11,5 +11,10 @@
 @interface ViewController : UIViewController
 
 
+- (IBAction)buttonClick:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *uniqueID;
+@property (weak, nonatomic) IBOutlet UITextField *textUID;
+
 @end
 

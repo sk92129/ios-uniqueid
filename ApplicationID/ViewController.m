@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DeviceUID.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    NSString *uniqueId = [DeviceUID uid];
+    NSLog(@"the unique ID: %@", uniqueId);
 }
 
 
+
+
+
+- (IBAction)buttonClick:(id)sender {
+    NSLog(@"clicked");
+    
+    NSString *uniqueId = [DeviceUID uid];
+      NSLog(@"the unique ID: %@", uniqueId);
+    
+    self.uniqueID.text = uniqueId;
+    self.textUID.text = uniqueId;
+    
+}
 @end

@@ -14,6 +14,7 @@
 		C7AB66C92347B7F800D32164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7AB66C82347B7F800D32164 /* Assets.xcassets */; };
 		C7AB66CC2347B7F800D32164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AB66CA2347B7F800D32164 /* LaunchScreen.storyboard */; };
 		C7AB66CF2347B7F800D32164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AB66CE2347B7F800D32164 /* main.m */; };
+		C7AB66D72347B87700D32164 /* DeviceUID.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AB66D62347B87600D32164 /* DeviceUID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C7AB66CB2347B7F800D32164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7AB66CD2347B7F800D32164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7AB66CE2347B7F800D32164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7AB66D52347B85400D32164 /* DeviceUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceUID.h; sourceTree = "<group>"; };
+		C7AB66D62347B87600D32164 /* DeviceUID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceUID.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				C7AB66CA2347B7F800D32164 /* LaunchScreen.storyboard */,
 				C7AB66CD2347B7F800D32164 /* Info.plist */,
 				C7AB66CE2347B7F800D32164 /* main.m */,
+				C7AB66D52347B85400D32164 /* DeviceUID.h */,
+				C7AB66D62347B87600D32164 /* DeviceUID.m */,
 			);
 			path = ApplicationID;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				C7AB66BE2347B7F600D32164 /* AppDelegate.m in Sources */,
 				C7AB66CF2347B7F800D32164 /* main.m in Sources */,
 				C7AB66C12347B7F600D32164 /* SceneDelegate.m in Sources */,
+				C7AB66D72347B87700D32164 /* DeviceUID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
